@@ -4,9 +4,14 @@ Algorithm
 Data structure
  By: Julien Barbier
  Weight: 1
- Project will start Feb 1, 2024 5:00 AM, must end by Feb 3, 2024 5:00 AM
- Checker was released at Feb 1, 2024 5:00 PM
+ Ongoing second chance project - started Feb 1, 2024 5:00 AM, must end by Feb 8, 2024 5:00 AM
  An auto review will be launched at the deadline
+In a nutshell…
+Auto QA review: 0.0/47 mandatory & 0.0/21 optional
+Altogether:  0.0%
+Mandatory: 0.0%
+Optional: 0.0%
+Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
 Resources
 Read or watch:
 
@@ -86,6 +91,7 @@ Note that all dictionaries are not implemented using hash tables and there is a 
 Tasks
 0. >>> ht = {}
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Write a function that creates a hash table.
 
 Prototype: hash_table_t *hash_table_create(unsigned long int size);
@@ -142,9 +148,10 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x1A-hash_tables
 File: 0-hash_table_create.c
-   
+    
 1. djb2
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Write a hash function implementing the djb2 algorithm.
 
 Prototype: unsigned long int hash_djb2(const unsigned char *str);
@@ -197,9 +204,10 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x1A-hash_tables
 File: 1-djb2.c
-   
+    
 2. key -> index
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Write a function that gives you the index of a key.
 
 Prototype: unsigned long int key_index(const unsigned char *key, unsigned long int size);
@@ -250,9 +258,10 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x1A-hash_tables
 File: 2-key_index.c
-   
+    
 3. >>> ht['betty'] = 'cool'
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Write a function that adds an element to the hash table.
 
 Prototype: int hash_table_set(hash_table_t *ht, const char *key, const char *value);
@@ -296,9 +305,10 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x1A-hash_tables
 File: 3-hash_table_set.c
-   
+    
 4. >>> ht['betty']
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Write a function that retrieves a value associated with a key.
 
 Prototype: char *hash_table_get(const hash_table_t *ht, const char *key);
@@ -365,9 +375,10 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x1A-hash_tables
 File: 4-hash_table_get.c
-   
+    
 5. >>> print(ht)
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Write a function that prints a hash table.
 
 Prototype: void hash_table_print(const hash_table_t *ht);
@@ -413,9 +424,10 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x1A-hash_tables
 File: 5-hash_table_print.c
-   
+    
 6. >>> del ht
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Write a function that deletes a hash table.
 
 Prototype: void hash_table_delete(hash_table_t *ht);
@@ -484,9 +496,10 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x1A-hash_tables
 File: 6-hash_table_delete.c
-   
+    
 7. $ht['Betty'] = 'Cool'
 #advanced
+Score: 0.0% (Checks completed: 0.0%)
 In PHP, hash tables are ordered. Wait… WAT? How is this even possible?
 
 
