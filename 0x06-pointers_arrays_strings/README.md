@@ -51,7 +51,7 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
 0. strcat
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Score: 0.00% (Checks completed: 0.00%)
 Write a function that concatenates two strings.
 
 Prototype: char *_strcat(char *dest, char *src);
