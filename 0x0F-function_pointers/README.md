@@ -122,7 +122,7 @@ File: 0-print_name.c
    
 1. If you spend too much time thinking about a thing, you'll never get it done
 mandatory
-Score: 0.00% (Checks completed: 0.00%)
+Score: 0.0% (Checks completed: 0.0%)
 Write a function that executes a function given as a parameter on each element of an array.
 
 Prototype: void array_iterator(int *array, size_t size, void (*action)(int));
@@ -414,5 +414,4 @@ Repo:
 
 GitHub repository: alx-low_level_programming
 Directory: 0x0F-function_pointers
-File: 100-main_opcodes.c
-
+File: 100-main_opcodes.c.
