@@ -1,14 +1,20 @@
 0x18. C - Dynamic libraries
 C
- By: Julien Barbier
  Weight: 1
- Project will start Jan 15, 2024 5:00 AM, must end by Jan 16, 2024 5:00 AM
- Checker will be released at Jan 15, 2024 11:00 AM
+ Project over - took place from Mar 25, 2024 5:00 AM to Mar 26, 2024 5:00 AM
  An auto review will be launched at the deadline
+In a nutshell…
+Auto QA review: 6.5/31 mandatory & 0.0/20 optional
+Altogether:  20.97%
+Mandatory: 20.97%
+Optional: 0.0%
+Calculation:  20.97% + (20.97% * 0.0%)  == 20.97%
 Resources
 Read or watch:
 
 What is difference between Dynamic and Static library (Static and Dynamic linking)
+Creating a dynamic library in C
+Chapter 17. Creating libraries with GCC
 create dynamic libraries on Linux
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
@@ -48,6 +54,7 @@ All your files must be executable
 Tasks
 0. A library is not a luxury but one of the necessities of life
 mandatory
+Score: 0.00% (Checks completed: 0.00%)
 Create the dynamic library libdynamic.so containing all the functions listed below:
 
 int _putchar(char c);
@@ -141,9 +148,10 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x18-dynamic_libraries
 File: libdynamic.so, main.h
-  
+   
 1. Without libraries what have we? We have no past and no future
 mandatory
+Score: 65.0% (Checks completed: 100.0%)
 Create a script that creates a dynamic library called liball.so from all the .c files that are in the current directory.
 
 julien@ubuntu:~/0x18. Dynamic libraries$ ls *.c
@@ -185,6 +193,7 @@ File: 1-create_dynamic_lib.sh
   
 2. Let's call C functions from Python
 #advanced
+Score: 0.0% (Checks completed: 0.0%)
 I know, you’re missing C when coding in Python. So let’s fix that!
 
 Create a dynamic library that contains C functions that can be called from Python. See example for more detail.
@@ -231,9 +240,10 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x18-dynamic_libraries
 File: 100-operations.so
-  
+   
 3. Code injection: Win the Giga Millions!
 #advanced
+Score: 0.0% (Checks completed: 0.0%)
 
 
 I bought a ticket for the Giga Millions and chose these numbers: 9, 8, 10, 24, 75 + 9. If you could run two commands on the same server where the Giga Millions program runs, could you make me win the Jackpot?
